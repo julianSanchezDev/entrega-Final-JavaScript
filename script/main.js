@@ -1,20 +1,3 @@
-/*let parrafos = document.getElementById("resultado");
-let nombres = ["julian","camila","nicole"];
-
-for(let nombre of nombres){
-
-let crear = document.createElement("p");
-crear.innerHTML=nombre;
-
-parrafos.appendChild(crear);
-
-}*/    // CON UN FOR RECORRO EL ARRAY DE NOMBRES, Y DENTRO DEL FOR CREO UN ELEMENTO "P". Y LE AGREGO TODO ESO AL ELEMENTO CON ID RESULTADO
-
-
-/*let crear = document.createElement('p');
-crear.innerHTML="hola mundo"
-document.body.append(crear);*/ //CREO UN ELEMENTO, LE AGREGO UN TEXTO Y LO AGREGO AL DOCUMENTO.
-
 async function pokeFor(number) {
     let pokemones = [];
     for (let i = 1; i <= number; i++) {
